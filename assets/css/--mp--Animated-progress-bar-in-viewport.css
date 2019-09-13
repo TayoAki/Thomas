@@ -63,11 +63,33 @@
   color: #319318;
 }
 
-#logo {
-  max-height: 55px;
-  margin-bottom: 15px;
+@media (max-width: 992px) {
+  #logo {
+    max-height: 55px;
+    margin-bottom: 15px;
+  }
 }
 
 .btn.btn-primary.btn-xl.text-uppercase {
+}
+
+@media (max-width: 480px) {
+  #logo {
+    max-height: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  #logo {
+    max-height: 55px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo {
+    max-height: 55px;
+    margin-bottom: 15px;
+  }
 }
 
